@@ -1,0 +1,17 @@
+Basic analyses:
+ Genome assembly with PacBio reads.
+ Assembly evaluation.
+ Structural and functional annotation.
+ Synteny comparison with a closely related genome.
+ Reads preprocessing: trimming + quality check (before and after)
+ RNA-Seq reads alignment against the assembled genome.
+ Differential expression analysis between rich medium and heat-inactivated serum
+conditions.
+Extra analyses:
+ Genome assembly with Illumina and Nanopore reads.
+ Assembly evaluation (extra methods).
+ Plasmid identification.
+ SNPs calling.
+ Evaluate antibiotic resistance potential.
+ Identify essential genes for growth in human serum based on the Tn-Seq data
+analysis.
