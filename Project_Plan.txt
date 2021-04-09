@@ -6,8 +6,7 @@ The aim of the project is to reproduce and confirm for myself the results of the
 With the research, the hope is to answer the question regarding the genes which cause pathogenesis of E.faecium in humans. E.faecium cases bloodstream infections.
 
 ● What type of analyses will you perform in order to answer these questions? And in
-which order? Which softwares will you use? Are there any time bottlenecks? If so,
-can you identify any analyses that will require longer times?
+which order? Which softwares will you use? Are there any time bottlenecks? If so, can you identify any analyses that will require longer times?
 To fully obtain the results, we need to perform a set of analyses based on logical workflows i.e. Quality checks, Trimming reads, genome assembly, annotation and evaluation.
 We can use the following softwares: Trimmomatic, Spades, Canu, Quast, MUMmerplot, BCFTools, Prokka, BWA, Htseq and Deseq2.
 There can be time bottlenecks with a few softwares i.e. Trimmomatic can pose a bottleneck as it takes about 50 min per file, and my paper has 7-8 files. 
