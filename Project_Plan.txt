@@ -1,25 +1,24 @@
-#Project Plan (draft)
+#Project Plan (draft) [editing required]
 
-##● What is the aim of your project? What question(s) do you want to answer with your
+● What is the aim of your project? What question(s) do you want to answer with your
 research?
 The aim of the project is to reproduce and confirm for myself the results of the paper provided so as to get a better understanding of bioinformatics workflows and real world data and analyses. 
 With the research, the hope is to answer the question regarding the genes which cause pathogenesis of E.faecium in humans. E.faecium cases bloodstream infections.
 
-##● What type of analyses will you perform in order to answer these questions? And in which order? Which softwares will you use? Are there any time bottlenecks? If so, can you identify any analyses that will require longer times?
+● What type of analyses will you perform in order to answer these questions? And in which order? Which softwares will you use? Are there any time bottlenecks? If so, can you identify any analyses that will require longer times?
 To fully obtain the results, we need to perform a set of analyses based on logical workflows i.e. Quality checks, Trimming reads, genome assembly, annotation and evaluation.
 We can use the following softwares: Trimmomatic, Spades, Canu, Quast, MUMmerplot, BCFTools, Prokka, BWA, Htseq and Deseq2.
 There can be time bottlenecks with a few softwares i.e. Trimmomatic can pose a bottleneck as it takes about 50 min per file, and my paper has 7-8 files. 
 The Htseq software can act as a bottleneck as well as it takes anywhere between 2-7 hours for paired-end reads. 
 
-##● What is the time frame for your project? Can you define some time checkpoints for when you should have finished certain analyses? When do you need to have finished
+● What is the time frame for your project? Can you define some time checkpoints for when you should have finished certain analyses? When do you need to have finished
 running all the softwares so you can start to analyze the data?
 The timeframe for the project is roughly a month and a half including processing, evaluation and analysis. The Quality checks, trimming and assemnbly should be done by the 1st deadline so as to ensure ample time to run any extra analyses and evaluate results. The software stage should be over within a month so as to ensure atleast 15 days for analysis and evalation of data.
 
 
-##● What types of data will you be handling? How much space do you need in order to
-store the data? (You might not know that in advance, but pay attention to this as you
+● What types of data will you be handling? How much space do you need in order tostore the data? (You might not know that in advance, but pay attention to this as you
 work and manage your available space!)
-There will be a lot of sequence data, single and paired end, which are to be organised and run analyses on. Space required will be high due to the big sizes of the genomic files.
+There will be a lot of sequence data (fasta and fastq), single and paired end, which are to be organised and run analyses on. Space required will be high due to the big sizes of the genomic files.
 
-##● How will you organize your data? (see “Project Organization”)
+● How will you organize your data? (see “Project Organization”)
 All metadata needs to kept to ensure the best reproducibility possible, with structured and clear data and in non-proprietary formats. Consistency is key. The names for files shiuld be as informative as possible, and spaces should be avoided.
