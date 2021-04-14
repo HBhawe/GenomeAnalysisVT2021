@@ -13,8 +13,8 @@ The Htseq software can act as a bottleneck as well as it takes anywhere between 
 Full workflow:
 1. genome assembly of pacbio reads with canu, (dna)
 2. assembly quality with these softwares (Quast ...)
-3. Functional and structural annotation of the genom with Prokka
-4. Mapp rna reads to the assembled genom with bwa
+3. Functional and structural annotation of the genome with Prokka
+4. Map rna reads to the assembled genome with bwa
 5. expression analysis with htseq and deseq.
 6. extra analysis steps see the student manual under evaluation (if possible).
 
