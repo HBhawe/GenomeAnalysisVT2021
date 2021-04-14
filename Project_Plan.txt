@@ -10,9 +10,9 @@ To fully obtain the results, we need to perform a set of analyses based on logic
 We can use the following softwares: Trimmomatic, Spades, Canu, Quast, MUMmerplot, BCFTools, Prokka, BWA, Htseq and Deseq2.
 There can be time bottlenecks with a few softwares i.e. Trimmomatic can pose a bottleneck as it takes about 50 min per file, and my paper has 7-8 files. 
 The Htseq software can act as a bottleneck as well as it takes anywhere between 2-7 hours for paired-end reads. 
-Full workflow:
-1. genome assembly of pacbio reads with canu, (dna)
-2. assembly quality with these softwares (Quast ...)
+Full workflow for PacBio:
+1. genome assembly of pacbio reads with canu. Canu corrects and trims the PacBio reads as well (For quality checks)
+2. assembly quality with these softwares (Quast)
 3. Functional and structural annotation of the genome with Prokka
 4. Map rna reads to the assembled genome with bwa
 5. expression analysis with htseq and deseq.
