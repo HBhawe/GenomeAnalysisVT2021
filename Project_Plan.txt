@@ -21,17 +21,17 @@ Full workflow for PacBio:
 
 Workflow for Illumina:
 1. Quality control with FastQC and Trimmomatic
-2. Genome assmebly with SPAdes
+2. Genome assembly with SPAdes
 3. Annotation
-4. Mapping reads to assmebled genome
+4. Mapping reads to assembled genome
 5. Differential expression studies
 6. Extra Analysis
 
 Workflow for Nanopore:
-1. Genome assmebly with correction and trimming by Canu
+1. Genome assembly with correction and trimming by Canu
 2. Quality checks
 3. Annotation
-4. Mapping RNA reads to genome assmebly
+4. Mapping RNA reads to genome assembly
 5. Differential expression analysis
 6. Extra analysis (if needed)
 
@@ -40,7 +40,7 @@ Workflow for combination:
 1. Quality checks and trimming with Canu
 2. Hybrid genome assembly with Canu options
 3. Assembly quality checks
-4. Mapping RNA reads to assmebled genome
+4. Mapping RNA reads to assembled genome
 5. Differential expression analysis
 
 
