@@ -38,7 +38,7 @@ Workflow for Nanopore:
 Suggested combination of long and short reads: Nanopore + PacBio for most accurate results
 Workflow for combination:
 1. Quality checks and trimming with Canu
-2. Hybrid genome assmebly with Canu options
+2. Hybrid genome assembly with Canu options
 3. Assembly quality checks
 4. Mapping RNA reads to assmebled genome
 5. Differential expression analysis
