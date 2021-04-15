@@ -19,7 +19,7 @@ Full workflow for PacBio:
 5. expression analysis with htseq and deseq.
 6. extra analysis steps see the student manual under evaluation (if possible).
 
-Workflow for Illumina:
+Workflow for Illumina: (FOR REFERENCE)
 1. Quality control with FastQC and Trimmomatic
 2. Genome assembly with SPAdes
 3. Annotation
@@ -27,7 +27,7 @@ Workflow for Illumina:
 5. Differential expression studies
 6. Extra Analysis
 
-Workflow for Nanopore:
+Workflow for Nanopore: (FOR REFERENCE)
 1. Genome assembly with correction and trimming by Canu
 2. Quality checks
 3. Annotation
@@ -35,7 +35,7 @@ Workflow for Nanopore:
 5. Differential expression analysis
 6. Extra analysis (if needed)
 
-Suggested combination of long and short reads: Nanopore + PacBio for most accurate results
+Suggested combination of long and short reads: Nanopore + PacBio for most accurate results  (FOR REFERENCE)
 Workflow for combination:
 1. Quality checks and trimming with Canu
 2. Hybrid genome assembly with Canu options
