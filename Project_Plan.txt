@@ -10,6 +10,7 @@ To fully obtain the results, we need to perform a set of analyses based on logic
 We can use the following softwares: Trimmomatic, Spades, Canu, Quast, MUMmerplot, BCFTools, Prokka, BWA, Htseq and Deseq2.
 There can be time bottlenecks with a few softwares i.e. Trimmomatic can pose a bottleneck as it takes about 50 min per file, and my paper has 7-8 files. 
 The Htseq software can act as a bottleneck as well as it takes anywhere between 2-7 hours for paired-end reads. 
+
 Full workflow for PacBio:
 1. genome assembly of pacbio reads with canu. Canu corrects and trims the PacBio reads as well (For quality checks)
 2. assembly quality with these softwares (Quast)
@@ -17,6 +18,31 @@ Full workflow for PacBio:
 4. Map rna reads to the assembled genome with bwa
 5. expression analysis with htseq and deseq.
 6. extra analysis steps see the student manual under evaluation (if possible).
+
+Workflow for Illumina:
+1. Quality control with FastQC and Trimmomatic
+2. Genome assmebly with SPAdes
+3. Annotation
+4. Mapping reads to assmebled genome
+5. Differential expression studies
+6. Extra Analysis
+
+Workflow for Nanopore:
+1. Genome assmebly with correction and trimming by Canu
+2. Quality checks
+3. Annotation
+4. Mapping RNA reads to genome assmebly
+5. Differential expression analysis
+6. Extra analysis (if needed)
+
+Suggested combination of long and short reads: Nanopore + PacBio for most accurate results
+Workflow for combination:
+1. Quality checks and trimming with Canu
+2. Hybrid genome assmebly with Canu options
+3. Assembly quality checks
+4. Mapping RNA reads to assmebled genome
+5. Differential expression analysis
+
 
 ● What is the time frame for your project? Can you define some time checkpoints for when you should have finished certain analyses? When do you need to have finished
 running all the softwares so you can start to analyze the data?
