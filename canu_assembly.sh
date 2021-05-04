@@ -3,7 +3,7 @@
 #SBATCH -A g2021012
 #SBATCH -M SNOWY
 #SBATCH -p core
-#SBATCH -n 4
+#SBATCH -n 2
 #SBATCH -t 15:00:00
 #SBATCH -J test_canu_pacbio
 #SBATCH --mail-type=ALL
