@@ -1,0 +1,107 @@
+.
+├── RNA-Seq_BH
+│   ├── aln_paired_ERR1797972.bai
+│   ├── aln_paired_ERR1797972.bam
+│   ├── aln_paired_ERR1797973.bai
+│   ├── aln_paired_ERR1797973.bam
+│   ├── aln_paired_ERR1797974.bai
+│   ├── aln_paired_ERR1797974.bam
+│   ├── awk_data.txt
+│   ├── hts1.sh
+│   ├── hts2.sh
+│   ├── htseq1_treated.txt
+│   ├── htseq2_treated.txt
+│   ├── htseq_counts.txt
+│   ├── htseq_paired.sh
+│   ├── htseq_result_paired.txt
+│   ├── htseq_result_treated.csv
+│   ├── htseq_test.txt
+│   ├── htseq_treated1.sh
+│   ├── paired_index.sh
+│   ├── RNA_map.sh
+│   ├── RNA_map_single.sh
+│   ├── slurm-4475929.out
+│   ├── slurm-4476844.out
+│   ├── slurm-4476876.out
+│   ├── slurm-4476899.out
+│   ├── slurm-4515764.out
+│   ├── slurm-4515778.out
+│   ├── slurm-4515800.out
+│   ├── slurm-4517170.out
+│   ├── slurm-4547533.out
+│   ├── slurm-4577346.out
+│   ├── slurm-4577577.out
+│   ├── slurm-4577578.out
+│   ├── treated1.txt
+│   ├── treated2.txt
+│   ├── treated3.txt
+│   ├── trim_paired_ERR1797972_pass_1.fastq.gz -> /crex/proj/g2021012/1_Zhang_2017/transcriptomics_data/RNA-Seq_BH/trim_paired_ERR1797972_pass_1.fastq.gz
+│   ├── trim_paired_ERR1797972_pass_2.fastq.gz -> /crex/proj/g2021012/1_Zhang_2017/transcriptomics_data/RNA-Seq_BH/trim_paired_ERR1797972_pass_2.fastq.gz
+│   ├── trim_paired_ERR1797973_pass_1.fastq.gz -> /crex/proj/g2021012/1_Zhang_2017/transcriptomics_data/RNA-Seq_BH/trim_paired_ERR1797973_pass_1.fastq.gz
+│   ├── trim_paired_ERR1797973_pass_2.fastq.gz -> /crex/proj/g2021012/1_Zhang_2017/transcriptomics_data/RNA-Seq_BH/trim_paired_ERR1797973_pass_2.fastq.gz
+│   ├── trim_paired_ERR1797974_pass_1.fastq.gz -> /crex/proj/g2021012/1_Zhang_2017/transcriptomics_data/RNA-Seq_BH/trim_paired_ERR1797974_pass_1.fastq.gz
+│   ├── trim_paired_ERR1797974_pass_2.fastq.gz -> /crex/proj/g2021012/1_Zhang_2017/transcriptomics_data/RNA-Seq_BH/trim_paired_ERR1797974_pass_2.fastq.gz
+│   ├── trim_single_ERR1797972_pass_1.fastq.gz -> /crex/proj/g2021012/1_Zhang_2017/transcriptomics_data/RNA-Seq_BH/trim_single_ERR1797972_pass_1.fastq.gz
+│   ├── trim_single_ERR1797972_pass_2.fastq.gz -> /crex/proj/g2021012/1_Zhang_2017/transcriptomics_data/RNA-Seq_BH/trim_single_ERR1797972_pass_2.fastq.gz
+│   ├── trim_single_ERR1797973_pass_1.fastq.gz -> /crex/proj/g2021012/1_Zhang_2017/transcriptomics_data/RNA-Seq_BH/trim_single_ERR1797973_pass_1.fastq.gz
+│   ├── trim_single_ERR1797973_pass_2.fastq.gz -> /crex/proj/g2021012/1_Zhang_2017/transcriptomics_data/RNA-Seq_BH/trim_single_ERR1797973_pass_2.fastq.gz
+│   ├── trim_single_ERR1797974_pass_1.fastq.gz -> /crex/proj/g2021012/1_Zhang_2017/transcriptomics_data/RNA-Seq_BH/trim_single_ERR1797974_pass_1.fastq.gz
+│   └── trim_single_ERR1797974_pass_2.fastq.gz -> /crex/proj/g2021012/1_Zhang_2017/transcriptomics_data/RNA-Seq_BH/trim_single_ERR1797974_pass_2.fastq.gz
+├── RNA-Seq_Serum
+│   ├── aln_paired_ERR1797969.bai
+│   ├── aln_paired_ERR1797969.bam
+│   ├── aln_paired_ERR1797970.bai
+│   ├── aln_paired_ERR1797970.bam
+│   ├── aln_paired_ERR1797971.bai
+│   ├── aln_paired_ERR1797971.bam
+│   ├── awk_data.txt
+│   ├── hts1.sh
+│   ├── hts2.sh
+│   ├── htseq1_untreated.txt
+│   ├── htseq2_untreated.txt
+│   ├── htseq_counts.txt
+│   ├── htseq_paired.sh
+│   ├── htseq_result_paired.txt
+│   ├── htseq_temp.txt
+│   ├── Overall_pipeline.sh
+│   ├── paired_index.sh
+│   ├── RNA_map.sh
+│   ├── slurm-4565034.out
+│   ├── slurm-4565305.out
+│   ├── slurm-4565490.out
+│   ├── slurm-4566660.out
+│   ├── slurm-4566695.out
+│   ├── slurm-4577599.out
+│   ├── slurm-4577600.out
+│   ├── slurm-4577634.out
+│   ├── trim_paired_ERR1797969_pass_1.fastq.gz -> /crex/proj/g2021012/1_Zhang_2017/transcriptomics_data/RNA-Seq_Serum/trim_paired_ERR1797969_pass_1.fastq.gz
+│   ├── trim_paired_ERR1797969_pass_2.fastq.gz -> /crex/proj/g2021012/1_Zhang_2017/transcriptomics_data/RNA-Seq_Serum/trim_paired_ERR1797969_pass_2.fastq.gz
+│   ├── trim_paired_ERR1797970_pass_1.fastq.gz -> /crex/proj/g2021012/1_Zhang_2017/transcriptomics_data/RNA-Seq_Serum/trim_paired_ERR1797970_pass_1.fastq.gz
+│   ├── trim_paired_ERR1797970_pass_2.fastq.gz -> /crex/proj/g2021012/1_Zhang_2017/transcriptomics_data/RNA-Seq_Serum/trim_paired_ERR1797970_pass_2.fastq.gz
+│   ├── trim_paired_ERR1797971_pass_1.fastq.gz -> /crex/proj/g2021012/1_Zhang_2017/transcriptomics_data/RNA-Seq_Serum/trim_paired_ERR1797971_pass_1.fastq.gz
+│   ├── trim_paired_ERR1797971_pass_2.fastq.gz -> /crex/proj/g2021012/1_Zhang_2017/transcriptomics_data/RNA-Seq_Serum/trim_paired_ERR1797971_pass_2.fastq.gz
+│   ├── trim_single_ERR1797969_pass_1.fastq.gz -> /crex/proj/g2021012/1_Zhang_2017/transcriptomics_data/RNA-Seq_Serum/trim_single_ERR1797969_pass_1.fastq.gz
+│   ├── trim_single_ERR1797969_pass_2.fastq.gz -> /crex/proj/g2021012/1_Zhang_2017/transcriptomics_data/RNA-Seq_Serum/trim_single_ERR1797969_pass_2.fastq.gz
+│   ├── trim_single_ERR1797970_pass_1.fastq.gz -> /crex/proj/g2021012/1_Zhang_2017/transcriptomics_data/RNA-Seq_Serum/trim_single_ERR1797970_pass_1.fastq.gz
+│   ├── trim_single_ERR1797970_pass_2.fastq.gz -> /crex/proj/g2021012/1_Zhang_2017/transcriptomics_data/RNA-Seq_Serum/trim_single_ERR1797970_pass_2.fastq.gz
+│   ├── trim_single_ERR1797971_pass_1.fastq.gz -> /crex/proj/g2021012/1_Zhang_2017/transcriptomics_data/RNA-Seq_Serum/trim_single_ERR1797971_pass_1.fastq.gz
+│   ├── trim_single_ERR1797971_pass_2.fastq.gz -> /crex/proj/g2021012/1_Zhang_2017/transcriptomics_data/RNA-Seq_Serum/trim_single_ERR1797971_pass_2.fastq.gz
+│   ├── untreated1.txt
+│   ├── untreated2.txt
+│   ├── untreated3.txt
+│   └── untrimmed -> /crex/proj/g2021012/1_Zhang_2017/transcriptomics_data/RNA-Seq_Serum/untrimmed
+├── Tn-Seq_BHI
+│   ├── trim_ERR1801012_pass.fastq.gz -> /crex/proj/g2021012/1_Zhang_2017/transcriptomics_data/Tn-Seq_BHI/trim_ERR1801012_pass.fastq.gz
+│   ├── trim_ERR1801013_pass.fastq.gz -> /crex/proj/g2021012/1_Zhang_2017/transcriptomics_data/Tn-Seq_BHI/trim_ERR1801013_pass.fastq.gz
+│   └── trim_ERR1801014_pass.fastq.gz -> /crex/proj/g2021012/1_Zhang_2017/transcriptomics_data/Tn-Seq_BHI/trim_ERR1801014_pass.fastq.gz
+├── Tn-Seq_HSerum
+│   ├── trim_ERR1801009_pass.fastq.gz -> /crex/proj/g2021012/1_Zhang_2017/transcriptomics_data/Tn-Seq_HSerum/trim_ERR1801009_pass.fastq.gz
+│   ├── trim_ERR1801010_pass.fastq.gz -> /crex/proj/g2021012/1_Zhang_2017/transcriptomics_data/Tn-Seq_HSerum/trim_ERR1801010_pass.fastq.gz
+│   └── trim_ERR1801011_pass.fastq.gz -> /crex/proj/g2021012/1_Zhang_2017/transcriptomics_data/Tn-Seq_HSerum/trim_ERR1801011_pass.fastq.gz
+├── Tn-Seq_Serum
+│   ├── trim_ERR1801006_pass.fastq.gz -> /crex/proj/g2021012/1_Zhang_2017/transcriptomics_data/Tn-Seq_Serum/trim_ERR1801006_pass.fastq.gz
+│   ├── trim_ERR1801007_pass.fastq.gz -> /crex/proj/g2021012/1_Zhang_2017/transcriptomics_data/Tn-Seq_Serum/trim_ERR1801007_pass.fastq.gz
+│   └── trim_ERR1801008_pass.fastq.gz -> /crex/proj/g2021012/1_Zhang_2017/transcriptomics_data/Tn-Seq_Serum/trim_ERR1801008_pass.fastq.gz
+└── Transcriptomics_full_tree.txt
+
+6 directories, 98 files
