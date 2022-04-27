@@ -1,6 +1,8 @@
 # GenomeAnalysisVT2021
 Genome Analysis Project
 
+PLEASE READ THE WIKI
+
 Project Details and Workflow of Project Paper 1
 #### PacBio Workflow: ####
 
